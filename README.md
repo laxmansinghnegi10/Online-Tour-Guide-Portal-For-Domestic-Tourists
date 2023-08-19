@@ -22,15 +22,18 @@ TCS-iON-TourBuddy-Online-Tour-Guide is a web-based portal developed as part of t
 => Features:
 
 1- User-friendly interface for easy navigation.
+
 2- Customized tourist information based on starting and ending locations.
+
 3- Dynamic dropdowns to select starting and ending places.
+
 4- Information retrieval from the database based on user selection.
 
 
 
 =>Contributions 👥:
  
-Contributions are welcome! If you have any suggestions, bug fixes, or feature enhancements, please submit a pull request.
+"Contributions welcome! Join us in enhancing the Online Tour Guide Project's virtual travel experience through code, design, and content. Let's explore the world together!".
 
 
 " Feel free to explore, contribute, and enjoy your virtual tour with TourBuddy! "
