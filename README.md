@@ -11,24 +11,22 @@ TCS-iON-Online-Tour-Guide-For-Domestic-Tourists is a web-based portal developed 
 
 => Installation and Setup 🛠️:
 
-1. Clone this repository to the `htdocs` directory of your XAMPP installation.
-2. Set up a local development environment using XAMPP with Apache and MySQL services.
-3. Import the provided SQL database file to set up the necessary data structure.
-4. Configure the database connection in the PHP files.
-5. Start Apache and MySQL services in XAMPP.
-6. Access the application through your web browser using the appropriate URL.
+1- Duplicate this repository into XAMPP's htdocs directory.
+2- Prepare a local development environment in XAMPP, ensuring Apache and MySQL services are active.
+3- Import the furnished SQL database file to establish essential data structure.
+5- Adjust the database links within the PHP files.
+6- Initiate Apache and MySQL services using XAMPP.
+7- Launch the application via web browser, utilizing the correct URL.
 
 
 => Features:
+1- Intuitive (User Friendly) interface for seamless navigation.
 
-1- User-friendly interface for easy navigation.
+2- Tailored tourist details based on chosen departure and arrival points.
 
-2- Customized tourist information based on starting and ending locations.
+3- Interactive dropdowns for dynamic selection of origins and destinations.
 
-3- Dynamic dropdowns to select starting and ending places.
-
-4- Information retrieval from the database based on user selection.
-
+4-Database-driven data retrieval aligned with user preferences.
 
 
 =>Contributions 👥:
@@ -36,4 +34,4 @@ TCS-iON-Online-Tour-Guide-For-Domestic-Tourists is a web-based portal developed 
 "Contributions welcome! Join us in enhancing the Online Tour Guide Project's virtual travel experience through code, design, and content. Let's explore the world together!".
 
 
-" Feel free to explore, contribute, and enjoy your virtual tour with TourBuddy! "
+"Embrace the freedom to discover, contribute, and relish your virtual tour experience with this "online tour guide" project!"
