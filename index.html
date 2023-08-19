@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour Guide Portal</title>
+	<!-- Linking CSS file -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- Linking JavaScript file -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" />
+	<style>
+		.swiper-container {
+			width: 100%;
+			height: 100vh;
+		}
+		.swiper-slide {
+			background-position: center;
+			background-size: cover;
+			width: 100%;
+			height: 100vh;
+		}
+    img {
+  width: 100%;
+  height: 100%; 
+  display: block; 
+}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to Tour Guide Portal</h1>
+		<!-- Navigation Bar -->
+		<nav class="navbar">
+			<ul>
+				<li><a class="active" href="#Home">Home</a></li>
+				<li><a href="#About-Us">About Us</a></li>
+				<li><a href="#Contact-Us">Contact Us</a></li>
+				<li><a href="login.php">Register</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Swiper -->
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+        <img src="tour.jpg" alt="Image description">
+      </div>
+</div>
+
+      <!-- Home Section -->
+      <section id="home">
+        <h2>Welcome to our Tour Guide Portal</h2>
+        <p>Your one-stop destination for discovering the breathtaking beauty of India. Whether you're a first-time traveler or a seasoned adventurer, our platform has something for everyone. Our team of experts has carefully curated tours and destinations that are designed to offer you an authentic and unforgettable experience. From exploring the iconic landmarks, natural wonders, and cultural hotspots, to choosing from a wide range of tours, from city breaks to scenic road trips and adventure tours, we have it all covered. With our knowledgeable and passionate tour guides, you'll be able to experience India like never before. So, sit back, relax, and let us take care of everything.</p>
+        <h2>Discover India</h2>
+        <ul>
+          <li>Explore the iconic landmarks, natural wonders, and cultural hotspots that make India a must-visit destination.</li>
+          <li>Choose from a wide range of tours, from city breaks to scenic road trips and adventure tours.</li>
+          <li>Experience India like never before with our knowledgeable and passionate tour guides.</li>
+        </ul>
+        <h2>Why Choose Us</h2>
+        <ul>
+          <li>Trustworthy and Experienced: Our team has years of experience in travel and tourism, and we are dedicated to providing the best possible service to our customers.</li>
+          <li>Convenient and know the places for your destinations easily to vist new places, so you can focus on having a great time.</li>
+        </ul>
+      </section>
+      
+      <!-- About Us Section -->
+      <section id="About-Us">
+        <h2>About Us</h2>
+        <p>Tour Guide Portal is a platform that connects travelers with knowledgeable and passionate tour guides in India. Our mission is to provide an authentic and unforgettable travel experience for our customers by showcasing the beauty and diversity of India. We believe that traveling should be a journey of discovery, and we strive to make that possible for everyone.</p>
+        <p>Our team is made up of experts in travel and tourism who have years of experience in the industry. We understand the needs and interests of travelers, and we use that knowledge to create customized tours that are tailored to your specific needs. Whether you're a first-time traveler or a seasoned adventurer, we have something for everyone.</p>
+        <p>In addition to our personalized tours, we also have a wide range of tours that showcase the best of India. From city breaks to scenic road trips and adventure tours.</p>
+      </section>
+  
+      <!-- Contact Us Section -->
+      <section id="Contact-Us">    
+        <h2>Contact Us</h2>
+        <p>We're always here to help! Whether you have a question about our tours or need help booking, our customer service team is here to assist you. You can reach us by email, phone, or through our website contact form. We'll get back to you as soon as possible and answer any questions you may have.</p>
+        <p>For media inquiries or other business-related inquiries, please contact us at:</p>
+        <p><strong>Email:</strong> gokul08r@gmail.com</p>
+        <p><strong>Phone:</strong> +91-636-977-4614</p>
+        <p><strong>Address:</strong> 123 South Street, Chennai, India</p>
+        <p>We look forward to hearing from you!</p>          
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        keyboard: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
+</body>
+</html>    
+

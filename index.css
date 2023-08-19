@@ -1,0 +1,153 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0;
+  }
+  header h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  header .navbar {
+    display: flex;
+  }
+  header .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header a:hover {
+    color: lightblue;
+  }
+  header .navbar ul {
+      list-style: none; 
+      margin: 0;
+  }
+  header .navbar ul li {
+    padding: 10px;
+  }
+  header .navbar li{
+      display:inline-block; margin-right:20px;
+  }
+   header .navbar ul li a.active{
+    color:lightblue;
+  }
+  #image {
+    width: 100%;
+    height: 100%; 
+    display: block; 
+  }
+  /* Main */
+  main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  }
+  
+  /* Sections */
+  section {
+  text-align: center;
+  flex-basis: 100%;
+  padding: 10px;
+  }
+  
+  section p {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  }
+  
+  section li {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Home Section */
+  #home {
+  background-color: #f2f2f2;
+  }
+  
+  /* About Us Section */
+  #About-Us {
+  background-color: #e6e6e6;
+  }
+  
+  /* Contact Us Section */
+  #Contact-Us {
+  background-color: #f2f2f2;
+  }
+  
+  /* Headings */
+  h1, h2 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  }
+  
+  /* Paragraphs */
+  p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Footer */
+  #footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+  header h1 {
+  font-size: 20px;
+  }
+  
+  section p {
+  font-size: 16px;
+  }
+  
+  section li {
+  font-size: 14px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+  header {
+  flex-direction: column;
+  align-items: flex-start;
+  }
+  
+  header h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  header .navbar {
+  margin-top: 10px;
+  flex-basis: 100%;
+  }

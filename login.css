@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  header h1 {
+    margin: 0;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  header .navbar {
+    display: flex;
+  }
+  header .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  header a:hover {
+    color: lightblue;
+  }
+  header .navbar ul {
+      list-style: none; 
+      margin: 0;
+  }
+  header .navbar ul li {
+    padding: 10px;
+  }
+  header .navbar li{
+      display:inline-block; margin-right:20px;
+  }
+   header .navbar ul li a.active{
+    color:lightblue;
+  }
+  h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /* Form styles */
+  .container {
+    width: 400px;
+    margin: auto;
+    padding: 40px 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px #333;
+  }
+  .input-control {
+    margin: 10px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+    input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: darkgreen;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .sign-up {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .error{
+    font-family: 'Times New Roman', Times, serif;
+    color: red ;
+    text-align: center;
+  }
+  .sign-up {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .sign-up a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
