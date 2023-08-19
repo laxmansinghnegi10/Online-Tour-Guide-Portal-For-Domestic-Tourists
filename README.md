@@ -12,10 +12,15 @@ TCS-iON-Online-Tour-Guide-For-Domestic-Tourists is a web-based portal developed 
 => Installation and Setup 🛠️:
 
 1- Duplicate this repository into XAMPP's htdocs directory.
+
 2- Prepare a local development environment in XAMPP, ensuring Apache and MySQL services are active.
+
 3- Import the furnished SQL database file to establish essential data structure.
+
 5- Adjust the database links within the PHP files.
+
 6- Initiate Apache and MySQL services using XAMPP.
+
 7- Launch the application via web browser, utilizing the correct URL.
 
 
