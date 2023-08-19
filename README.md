@@ -2,14 +2,14 @@
 
 TCS-iON-TourBuddy-Online-Tour-Guide is a web-based portal developed as part of the TCS iON remote internship. It serves as an Online Tour Guide, assisting domestic tourists in exploring new cities. The portal is built using HTML, CSS, PHP, and SQL and is designed to be deployed using XAMPP, providing personalized tourist information based on users' starting and ending locations.This project aims to provide an engaging and educational experience, allowing users to virtually travel and discover new locations while receiving expert insights and commentary.
 
-=> Technologies Used:
+=> Technologies Used 💻:
 
 - HTML
 - CSS
 - PHP
 - SQL
 
-=> Installation and Setup:
+=> Installation and Setup 🛠️:
 
 1. Clone this repository to the `htdocs` directory of your XAMPP installation.
 2. Set up a local development environment using XAMPP with Apache and MySQL services.
@@ -28,8 +28,8 @@ TCS-iON-TourBuddy-Online-Tour-Guide is a web-based portal developed as part of t
 
 
 
-=> Contributions:
-
+=>Contributions 👥:
+ 
 Contributions are welcome! If you have any suggestions, bug fixes, or feature enhancements, please submit a pull request.
 
 
