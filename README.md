@@ -10,13 +10,13 @@ TCS-iON-Online-Tour-Guide-Portal-For-Domestic-Tourists is a web-based portal dev
 
 We used some fancy tools to create this website:
 
-HTML: Like the skeleton, it gives the website structure.
+1- HTML: Like the skeleton, it gives the website structure.
 
-CSS: This is for making everything look nice and pretty.
+2- CSS: This is for making everything look nice and pretty.
 
-PHP: It's like the brain that adds cool stuff to the website.
+3- PHP: It's like the brain that adds cool stuff to the website.
 
-SQL: We use this to store and get information.
+4- SQL: We use this to store and get information.
 
 
 
@@ -42,13 +42,13 @@ It's easy to get going on your virtual journey:
 => 🌟 What's Cool About It (Features):
 
 
-🧭 It's easy to use because we made it simple and friendly.
+1- 🧭 It's easy to use because we made it simple and friendly.
 
-📜 You can learn about places based on where you start and finish.
+2- 📜 You can learn about places based on where you start and finish.
 
-🔄 Pick where you want to go from nice lists that change when you pick.
+3- 🔄 Pick where you want to go from nice lists that change when you pick.
 
-📊 Get info from the database that matches what you want.           
+4- 📊 Get info from the database that matches what you want.           
 
 
 
